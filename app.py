@@ -6,7 +6,7 @@ app = Flask(__name__)
 
 # Sample beach list
 beach_list = {
-    "beach4": "Marina Beach",
+    "beach4": "Cherai Beach",
     # Add more beaches here as needed
 }
 
