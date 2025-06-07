@@ -21,7 +21,8 @@ def generate_beach_data(location_name):
             "ph": round(random.uniform(6.5, 7.5), 2),
             "tidelength": random.uniform(1.0, 2.0),
             "scattering": random.uniform(0.0, 3.0),
-            "turbidity": random.uniform(1.0, 7.0)
+            "turbidity": random.uniform(1.0, 7.0),
+            "location": location_name,
         }
     }
 
